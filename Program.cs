@@ -1,3 +1,5 @@
+using Teo.prueba._1.PedidosMaterial;
+
 namespace Teo.prueba._1
 {
     internal static class Program
@@ -11,7 +13,9 @@ namespace Teo.prueba._1
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            //Application.Run(new Form());
+            new SolicitudMaterialForm();
+            Application.Run(new SolicitudMaterialForm());
         }
     }
 }

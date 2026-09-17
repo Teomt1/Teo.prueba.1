@@ -1,6 +1,6 @@
 ﻿namespace Teo.prueba._1.PedidosMaterial
 {
-    partial class Form1
+    partial class SolicitudMaterialForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,6 @@
         {
             botonsalir = new Button();
             checkedListBox1 = new CheckedListBox();
-            SuspendLayout();
             // 
             // botonsalir
             // 
@@ -40,6 +39,7 @@
             botonsalir.TabIndex = 0;
             botonsalir.Text = "Salir";
             botonsalir.UseVisualStyleBackColor = true;
+            botonsalir.Click += botonsalir_Click;
             // 
             // checkedListBox1
             // 

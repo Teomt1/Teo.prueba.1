@@ -8,12 +8,16 @@ using System.Windows.Forms;
 
 namespace Teo.prueba._1.PedidosMaterial
 {
-    public partial class Form1 : Form
+    public partial class SolicitudMaterialForm : Form
     {
-        private readonly Form1 modelo = new();
-        public Form1()
+        public SolicitudMaterialForm()
         {
             InitializeComponent();
+        }
+
+        private void botonsalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
